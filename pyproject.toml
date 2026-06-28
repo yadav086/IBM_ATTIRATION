@@ -1,0 +1,13 @@
+[project]
+name = "hr-employee-attrition"
+version = "0.1.0"
+description = "IBM HR attrition"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "catboost>=1.2.10",
+    "category-encoders>=2.7.0",
+    "imblearn>=0.0",
+    "pandas>=3.0.3",
+    "streamlit>=1.58.0",
+]
